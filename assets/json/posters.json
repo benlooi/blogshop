@@ -1,0 +1,22 @@
+[
+    {"category":"Posters",
+    "productname":"Poster1",
+    "description":"...",
+    "image":"bangtanboy.jpg",
+    "price":20
+    },
+    
+    {"category":"Posters",
+    "productname":"Poster2",
+    "description":"...",
+    "image":"bangtanboy.jpg",
+    "price":20
+    },
+    
+    {"category":"Posters",
+    "productname":"Poster3",
+    "description":"...",
+    "image":"bangtanboy.jpg",
+    "price":20
+    }
+    ]

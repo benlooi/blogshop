@@ -1,12 +1,95 @@
-<div class="container">
-	<carousel interval="myInterval">
-      <slide ng-repeat="slide in slides" active="slide.active">
-        <img ng-src="{{slide.image}}" style="margin:auto;">
-        <div class="carousel-caption">
-         
-          <h4>{{slide.text}}</h4>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse"> 
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcollapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" href="#"> Kranji POP </a>
         </div>
-      </slide>
-    </carousel>
+        
+    <div class="collapse navbar-collapse" id="navbarcollapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#/welcome"> Home <span class="sr-only"> (current) </span></a></li>
+            
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Shopping <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#/shop/accessories">Accessories</a></li>
+                <li><a href="#/shop/posters">Posters</a></li>
+                <li class="divider"></li>
+                <li><a href="#/shop/others">Others...</a></li>
+            </li>
+              </ul> 
+            <li><a href="#/shop/customerfeedback"> Customer Feedback </a></li> 
+        </ul>
+        </div>
+    </div>
+</nav>
 
+<!-- Carousel -->
+<div id="carouselpic" class="carousel slide" data-ride="carousel">
+  
+  <ol class="carousel-indicators">
+    <li data-target="#carouselpic" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselpic" data-slide-to="1"></li>
+    <li data-target="#carouselpic" data-slide-to="2"></li>
+    <li data-target="#carouselpic" data-slide-to="3"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="assets/images/black-patent-shoes-with-bows.jpg" alt="Korean Black Shoes">
+      <div class="carousel-caption">
+        <h3> HOT SELLERS - These sophisticated Mary Janes are the types of shoes you will want to wear anywhere. </h3>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="assets/images/bangtanboy.jpg" alt="bangtanboy">
+      <div class="carousel-caption">
+        <h3> UP FOR GRABS - Posters! </h3>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="assets/images/koreanboymodels.jpg" alt="bigbang">
+      <div class="carousel-caption">
+        <h3> Want to look like BIGBANG!? </h3>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="assets/images/koreanbags.jpg" alt="koreangirl">
+      <div class="carousel-caption">
+        <h3> Trendy bags ON SALES! </h3>
+      </div>
+    </div>
+  </div>
+  
+   <a class="left carousel-control" href="#carouselpic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+   <a class="right carousel-control" href="#carouselpic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+</div>
+<!--
+<div class="container">
+  <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+      <img ng-src="{{slide.image}}" style="margin:auto;">
+      <div class="carousel-caption">
+         
+            <h4>{{slide.text}}</h4>
+      </div>
+      </slide>
+  </carousel>
+
+</div>-->

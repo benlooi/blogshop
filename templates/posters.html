@@ -1,0 +1,17 @@
+
+<!-- Shopping: Posters Feed -->
+<h1> BLOGSHOP PAGE w POSTERS FEED </h1>
+
+<div id="wrapper">
+	<div id="columns">
+		<div class="pin" ng-repeat="poster in posters">
+			<img ng-src="assets/images/{{poster.image}}"/>
+			<h4> {{poster.productname}} </h4>
+			<p>
+			{{poster.description}}
+			</p>
+		</div>
+	
+	</div>
+</div>  
+    

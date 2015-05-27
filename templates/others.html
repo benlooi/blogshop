@@ -1,0 +1,14 @@
+<!-- Shopping: Others Feed -->
+<h1> BLOGSHOP PAGE w OTHERS FEED </h1>
+
+<div id="wrapper">
+	<div id="columns">
+		<div class="pin" ng-repeat="thing in others">
+			<img ng-src="assets/images/{{thing.image}}"/>
+			<h4> {{thing.productname}} </h4>
+			<p>
+			{{thing.description}}
+			</p>
+		</div>
+	</div>
+</div>  

@@ -1,0 +1,22 @@
+[
+    {"category":"Shoes",
+    "productname":"Korean Black Shoes",
+    "description":"...",
+    "image":"black-patent-shoes-with-bows.jpg",
+    "price":20
+    },
+    
+    {"category":"Earrings",
+    "productname":"Korean Earrings",
+    "description":"...",
+    "image":"black-patent-shoes-with-bows.jpg",
+    "price":20
+    },
+    
+    {"category":"Bracelet",
+    "productname":"Pearl Bracelet",
+    "description":"...",
+    "image":"black-patent-shoes-with-bows.jpg",
+    "price":20
+    }
+    ]

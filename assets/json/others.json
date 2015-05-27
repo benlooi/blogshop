@@ -1,0 +1,22 @@
+[
+    {"category":"Others:Handphone Casings",
+    "productname":"Shinee HP Casings",
+    "description":"For Iphone 5/5S/6",
+    "image":"shineehpcase.jpg",
+    "price":20
+    },
+    
+    {"category":"Others:Handphone Stickers",
+    "productname":"Handphone Stickers",
+    "description":"...",
+    "image":"shineehpcase.jpg",
+    "price":20
+    },
+    
+    {"category":"Others:Home Products",
+    "productname":"Home Products",
+    "description":"...",
+    "image":"shineehpcase.jpg",
+    "price":20
+    }
+    ]
