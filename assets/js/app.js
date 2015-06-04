@@ -1,4 +1,4 @@
-angular.module('kssApp',['controllers','ui.router','ui.bootstrap'])
+angular.module('kssApp',['controllers','ui.router'])
 .config(function($stateProvider,$urlRouterProvider){
 
 	$stateProvider

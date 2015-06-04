@@ -1,22 +1,31 @@
 [
-    {"category":"Others:Handphone Casings",
-    "productname":"Shinee HP Casings",
-    "description":"For Iphone 5/5S/6",
-    "image":"shineehpcase.jpg",
-    "price":20
+    {"category":"Others:Toothbrush Holder",
+    "productname":"Simple Toothbrush Holder",
+    "description":"Very colourful, matches with different styles of washroom designs.",
+    "image":"toothbrushholder.jpg",
+    "price":5.50,
+    "qty":1,
+    "index":0,
+    "totalprice":0
     },
     
-    {"category":"Others:Handphone Stickers",
-    "productname":"Handphone Stickers",
-    "description":"...",
-    "image":"shineehpcase.jpg",
-    "price":20
+    {"category":"Others:Towel",
+    "productname":"Cotton Towels",
+    "description":"High quality towels...imported from Korea.",
+    "image":"towels.jpg",
+    "price":8.90,
+    "qty":1,
+    "index":1,
+    "totalprice":0
     },
     
-    {"category":"Others:Home Products",
-    "productname":"Home Products",
-    "description":"...",
-    "image":"shineehpcase.jpg",
-    "price":20
+    {"category":"Others:Clothes Hanger",
+    "productname":"Clothes Hanger",
+    "description":"LOVE Clothes Hanger, very stylish decoration within homes, and very useful.",
+    "image":"clotheshanger.jpg",
+    "price":14.90,
+    "qty":1,
+    "index":2,
+    "totalprice":0
     }
     ]

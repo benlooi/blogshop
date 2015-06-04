@@ -1,22 +1,41 @@
 [
-    {"category":"Shoes",
-    "productname":"Korean Black Shoes",
-    "description":"...",
-    "image":"black-patent-shoes-with-bows.jpg",
-    "price":20
+    {"category":"Earrings",
+    "productname":"Korean Cute Little Fox Fashion Earrings",
+    "description":"Suitable for sensitive skin, made from silver.",
+    "image":"foxearrings.jpg",
+    "price":10.90,
+    "qty":1,
+    "index":0,
+    "totalprice":0
     },
     
-    {"category":"Earrings",
-    "productname":"Korean Earrings",
-    "description":"...",
-    "image":"black-patent-shoes-with-bows.jpg",
-    "price":20
+    {"category":"Headband",
+    "productname":"Korean jewel black headband",
+    "description":"Nice hair accessory to go along with any going-out outfits such as minidresses, jeans, skirts...",
+    "image":"jewelheadband.jpg",
+    "price":5,
+    "qty":1,
+    "index":1,
+    "totalprice":0
     },
     
     {"category":"Bracelet",
-    "productname":"Pearl Bracelet",
-    "description":"...",
-    "image":"black-patent-shoes-with-bows.jpg",
-    "price":20
+    "productname":"Cool Korean Fashion Rivet Leather Bracelet (in black/white)",
+    "description":"Stylish fashion leather bracelet, goes well with casual attire. Easily maintained.",
+    "image":"b&wbracelet.jpg",
+    "price":6.90,
+    "qty":1,
+    "index":2,
+    "totalprice":0
+    },
+    
+    {"category":"Cap",
+    "productname":"Cool Cap",
+    "description":"Really trendy cap for guys. Want to look cool, not a problem for you!",
+    "image":"badboycap.jpg",
+    "price":15,
+    "qty":1,
+    "index":2,
+    "totalprice":0
     }
     ]

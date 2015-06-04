@@ -1,22 +1,31 @@
 [
     {"category":"Posters",
-    "productname":"Poster1",
-    "description":"...",
+    "productname":"BangtanBoy Poster",
+    "description":"Very trendy boyband -BangtanBoy- limited edition poster",
     "image":"bangtanboy.jpg",
-    "price":20
+    "price":15.50,
+    "qty":1,
+    "index":0,
+    "totalprice":0
     },
     
     {"category":"Posters",
-    "productname":"Poster2",
-    "description":"...",
-    "image":"bangtanboy.jpg",
-    "price":20
+    "productname":"BIGBANG Poster",
+    "description":"Newest album poster for BigBang.",
+    "image":"koreanboymodels.jpg",
+    "price":7.90,
+    "qty":1,
+    "index":1,
+    "totalprice":0
     },
     
     {"category":"Posters",
-    "productname":"Poster3",
-    "description":"...",
-    "image":"bangtanboy.jpg",
-    "price":20
+    "productname":"EXO Poster",
+    "description":"EXO-L special edition poster",
+    "image":"EXOposter.jpg",
+    "price":11.90,
+    "qty":1,
+    "index":2,
+    "totalprice":0
     }
     ]
